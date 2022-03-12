@@ -1,0 +1,32 @@
+﻿
+GET http://localhost:3000/api/members
+
+###
+
+POST http://localhost:3000/api/members
+Content-Type: application/json
+
+{
+    id: 11,
+    name: 'Eunewoo',
+    team: 'developer',
+    position: 'Chief director',
+    emailAddress: 'ewchoi98@google.com',
+    phoneNumber: '010-xxxx-xxxx',
+    admissionDate: '2021/04/01',
+    birthday: '1998/02/05',
+    profileImage: 'profile10.png',
+}
+
+###
+
+PUT http://localhost:3000/api/members/1
+Content-Type: application/json
+
+ {
+    name: 'David',
+ }
+
+ ###
+ DELETE http://localhost:3000/api/members/3
+
