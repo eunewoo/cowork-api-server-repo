@@ -12,6 +12,11 @@ app.get('/hello', (req, res) => {
     res.send('<h1>Hello express of cooksite</h1>');
 });
 
+
+app.get('/', (req, res) => {
+    res.send('URL should contain /api/..');
+});
+
 app.get('api/members', async (req, res) => {
     const { team } = req.query;
 

@@ -1,5 +1,5 @@
 ﻿
-GET http://localhost:3000/api/members
+GET https://cowork-codeit-prac.herokuapp.com/api/members
 
 ###
 
